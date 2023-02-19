@@ -5,5 +5,4 @@ Group 4 Members:
 Erick Cruz,
 Ahmad Idrees, 
 Michael LaNasa - Project Manager,
-Jason Minier, 
 Cyril Thomas
