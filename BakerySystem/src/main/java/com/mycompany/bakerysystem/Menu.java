@@ -48,7 +48,7 @@ public class Menu {
 					break;
 				}
 				case (6): { // Exits System
-					exitBOSS();
+					exit();
 				}
 				default: {
 					System.out.println("Invalid choice, please choose between 1-6");
@@ -111,7 +111,7 @@ public class Menu {
 					break;
 				}
 				case (6): {
-					exitBOSS(); // Exits System
+					exit(); // Exits System
 				}
 				default: {
 					System.out.println("Invalid choice, please choose between 1-6");
