@@ -7,6 +7,7 @@ public class Menu {
 	 * START CUSTOMER MENU METHOD
 	 *****************************************************/
 	// Display Customer Menu
+    
 	void showCustomerMenu() throws Throwable {
 		int option = -1;
 
