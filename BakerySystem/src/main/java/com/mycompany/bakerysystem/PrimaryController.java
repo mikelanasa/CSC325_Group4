@@ -35,7 +35,9 @@ public class PrimaryController {
     @FXML
     private void checkLoginCredentials(){
         String regex = "^[A-Za-z0-9+_.-]+@(.+)$";
-        Pattern pattern = Pattern.compile(regex);   
+        Pattern pattern = Pattern.compile(regex);
+        if(!emailTextField.getText().isBlank() || !passwordTextField.getText().isBlank()){
+            
         String email = emailTextField.getText();
         
         Matcher matcher = pattern.matcher(email);
@@ -43,7 +45,7 @@ public class PrimaryController {
         while(matcher.matches() == false){
             count++;
             if(count == 3){
-                Platform.exit();
+                
             }
             
         }
@@ -52,7 +54,8 @@ public class PrimaryController {
         System.out.println(email +" : "+ matcher.matches()+"\n"); 
         String password = passwordTextField.getText();
         System.out.println(password);
-                
-        
+        }else{
+            return;
+        }
     }
 }
