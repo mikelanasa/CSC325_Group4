@@ -55,7 +55,7 @@ public class PrimaryController {
         String password = passwordTextField.getText();
         System.out.println(password);
         }else{
-            return;
+            
         }
     }
 }
