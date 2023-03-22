@@ -25,7 +25,7 @@
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
             <PasswordField fx:id="passwordTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" />
             <Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" onAction="#checkLoginCredentials" text="Login" />
-            <Button fx:id="createAccountButton" mnemonicParsing="false" text="Create account" />
+            <Button fx:id="createAccountButton" mnemonicParsing="false" onAction="#switchToSecondary" text="Create account" />
             <Button fx:id="restaurantWorkerButton" mnemonicParsing="false" text="Restaurant Worker" />
          </children>
          <padding>
