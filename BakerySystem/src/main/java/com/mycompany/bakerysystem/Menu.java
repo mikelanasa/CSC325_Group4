@@ -1,6 +1,7 @@
 package com.mycompany.bakerysystem;
 
 public class Menu {
+    
 	// More menu items can be initiated - initial
 	// Menu created using switches - probably much easier with FX
 	/**************************************************
@@ -71,6 +72,7 @@ public class Menu {
 	 ******************************************************/
 
 	// Display Employee Menu
+    
 	void showEmployeeMenu() throws Error, Throwable {
 		int option = -1;
 
@@ -122,4 +124,5 @@ public class Menu {
 		} while (option != 6);
 
 	}
+        
 }
