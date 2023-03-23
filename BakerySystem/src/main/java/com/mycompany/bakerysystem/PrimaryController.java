@@ -33,6 +33,17 @@ public class PrimaryController {
     }
     
     @FXML
+    private void switchToTertiary() throws IOException {
+        App.setRoot("tertiary");
+    }
+    
+    @FXML
+    private void switchToQuaternary() throws IOException {
+        App.setRoot("quaternary");
+    }
+    
+    
+    @FXML
     private void checkLoginCredentials(){
         String regex = "^[A-Za-z0-9+_.-]+@(.+)$";
         Pattern pattern = Pattern.compile(regex);
