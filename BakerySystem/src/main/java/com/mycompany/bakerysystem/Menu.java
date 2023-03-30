@@ -1,5 +1,5 @@
 package com.mycompany.bakerysystem;
-
+import java.util.Scanner;
 public class Menu {
     
 	// More menu items can be initiated - initial
@@ -8,7 +8,7 @@ public class Menu {
 	 * START CUSTOMER MENU METHOD
 	 *****************************************************/
 	// Display Customer Menu
-    
+    Scanner Keyboard = new Scanner(System.in);
 	void showCustomerMenu() throws Throwable {
 		int option = -1;
 
@@ -28,29 +28,29 @@ public class Menu {
 			option = Keyboard.nextInt();
 			switch (option) {
 				case (1): {
-					viewBakery(); // View Bakery Products
+					//viewBakery(); // View Bakery Products
 					break;
 				}
 				case (2): {
-					checkStatus(); // Check Status of Existing Orders
+					//checkStatus(); // Check Status of Existing Orders
 					break;
 				}
 				case (3): {
-					cancelOrder(); // Changes Order Status to Canceled
+					///cancelOrder(); // Changes Order Status to Canceled
 					break;
 				}
 				case (4): {
-					viewHistory();// shows orders fulfilled
+					//viewHistory();// shows orders fulfilled
 					break;
 				}
 				case (5): { // LogOut
 					System.out.println("Successfully logged out!");
-					loggedinUserID = "";
-					welcome();// shows orders fulfilled
+					//loggedinUserID = "";
+					//welcome();// shows orders fulfilled
 					break;
 				}
 				case (6): { // Exits System
-					exit();
+					//exit();
 				}
 				default: {
 					System.out.println("Invalid choice, please choose between 1-6");
@@ -92,29 +92,29 @@ public class Menu {
 			option = Keyboard.nextInt();
 			switch (option) {
 				case (1): {
-					viewBakery();
+					//viewBakery();
 					break;
 				}
 				case (2): {
-					viewOrders(); // View All Existing Orders
+					//viewOrders(); // View All Existing Orders
 					break;
 				}
 				case (3): {
-					changeStatus(); // Change The Status of Order using case
+					//changeStatus(); // Change The Status of Order using case
 					break;
 				}
 				case (4): {
-					contactCustomer();// shows orders fulfilled
+					//contactCustomer();// shows orders fulfilled
 					break;
 				}
 				case (5): {
 					System.out.println("Successfully logged out!");
-					loggedinUserID = "";
-					welcome();// shows orders fulfilled
+					//loggedinUserID = "";
+					//welcome();// shows orders fulfilled
 					break;
 				}
 				case (6): {
-					exit(); // Exits System
+					//exit(); // Exits System
 				}
 				default: {
 					System.out.println("Invalid choice, please choose between 1-6");
