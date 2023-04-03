@@ -8,6 +8,7 @@ package com.mycompany.bakerysystem;
  *
  * @author cyril
  */
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -37,6 +38,11 @@ public class CustomerMenuController {
 
     @FXML
     private Button orderStatusBttn;
+    
+    @FXML
+    private void switchToSecondary() throws IOException {
+        App.setRoot("logInPage");
+    }
 
     @FXML
     void cancelOrder(MouseEvent event) {
@@ -45,7 +51,7 @@ public class CustomerMenuController {
 
     @FXML
     void logOut(MouseEvent event) {
-
+        
     }
 
     @FXML
