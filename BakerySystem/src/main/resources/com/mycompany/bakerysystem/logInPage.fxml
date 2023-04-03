@@ -42,7 +42,7 @@
                         <PasswordField fx:id="passwordTextField" translateX="-17.0" />
                      </children>
                   </HBox>
-                  <Button fx:id="loginButton" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#checkLoginCredentials" prefHeight="26.0" prefWidth="159.6" style="-fx-background-color: #C02E28;" text="Login" textFill="WHITE" />
+                  <Button fx:id="loginButton" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#checkCustomerLoginCredentials" prefHeight="26.0" prefWidth="159.6" style="-fx-background-color: #C02E28;" text="Login" textFill="WHITE" />
                   <Button fx:id="createAccountButton" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#switchToTertiary" prefHeight="26.0" prefWidth="159.6" style="-fx-background-color: #C02E28;" text="Create account" textFill="WHITE" />
                   <Button fx:id="restaurantWorkerButton" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#switchToQuaternary" prefHeight="26.0" prefWidth="159.6" style="-fx-background-color: #C02E28;" text="Restaurant Worker" textFill="WHITE" />
                </children>
