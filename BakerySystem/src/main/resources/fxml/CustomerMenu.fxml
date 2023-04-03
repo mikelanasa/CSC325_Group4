@@ -12,13 +12,3 @@
         <URL value="@/styles/customermenu.css"/>
     </stylesheets>
 </AnchorPane>
-
-@FXML
-private Parent root;
-
-public CustomerMenuController() throws IOException {
-    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/CustomerMenu.fxml"));
-    fxmlLoader.setRoot(this);
-    fxmlLoader.setController(this);
-    fxmlLoader.load();
-}
