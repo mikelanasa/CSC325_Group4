@@ -29,12 +29,12 @@ public class PrimaryController {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("menuPage");
     }
     
     @FXML
     private void switchToTertiary() throws IOException {
-        App.setRoot("tertiary");
+        App.setRoot("registrationForm");
     }
     
     @FXML
