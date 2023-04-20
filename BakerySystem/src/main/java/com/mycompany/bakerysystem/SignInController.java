@@ -30,7 +30,7 @@ public class SignInController {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("CustomerMenuController");
+        App.setRoot("CustomerMenu");
     }
 
     @FXML
@@ -40,7 +40,7 @@ public class SignInController {
 
     @FXML
     private void switchToQuaternary() throws IOException {
-        App.setRoot("EmployeeMenuController");
+        App.setRoot("EmployeeMenu");
     }
 
     @FXML
