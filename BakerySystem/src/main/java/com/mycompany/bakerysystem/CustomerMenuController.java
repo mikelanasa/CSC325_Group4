@@ -42,6 +42,7 @@ public class CustomerMenuController {
     @FXML
     private void switchToSecondary() throws IOException {
         App.setRoot("logInPage");
+        
     }
 
     @FXML
@@ -61,7 +62,11 @@ public class CustomerMenuController {
 
     @FXML
     void viewBakery(MouseEvent event) {
-
+        try {
+            App.setRoot("menuPage");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 
     @FXML
@@ -76,7 +81,9 @@ public class CustomerMenuController {
         assert logOutBttn != null : "fx:id=\"logOutBttn\" was not injected: check your FXML file 'Untitled'.";
         assert orderHistoryBttn != null : "fx:id=\"orderHistoryBttn\" was not injected: check your FXML file 'Untitled'.";
         assert orderStatusBttn != null : "fx:id=\"orderStatusBttn\" was not injected: check your FXML file 'Untitled'.";
-
+        MenuController MC = new MenuController();
+        
+        
     }
 
 }
